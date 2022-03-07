@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(161, 168, 168);
+    background-color: rgb(1, 4, 9);
     font-family: sans-serif;
     font-weight: 300;
 }
 .box{
-    background-color: rgb(39, 32, 32);
+    background-color: rgb(13, 17, 23);
     width: 400px;
     height: 400px;
     position: absolute;
@@ -17,6 +17,7 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
+    border: solid 0.2px rgb(152, 158, 164);  
 }
 form{
     display: flex;
@@ -42,7 +43,7 @@ input{
     height: 50px;
     margin: 15px;
     border-radius: 24px;
-    background-color: rgb(39, 32, 32);
+    background-color: rgb(13, 17, 23);
     border: solid 2px rgb(71, 71, 219);
     color: aliceblue;
     outline: 0;
@@ -50,7 +51,7 @@ input{
 }
 .input:focus{
     width: 250px;
-    border: solid 2px green;
+    border: solid 2px rgb(35, 134, 54)  ;
 }
 .button{
    margin: 10px;
@@ -58,9 +59,9 @@ input{
    height: 50px;
    border-radius: 24px;
    font-size: 20px;
-   background-color: rgb(39, 32, 32);
+   background-color: rgb(13, 17, 23);
    color: aliceblue;
-   border: solid 1px green;
+   border: solid 1px rgb(35, 134, 54);
    transition: 0.5s;
 }
 .button:hover{
